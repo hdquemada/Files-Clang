@@ -2,6 +2,7 @@
 
 int main(void)
 {
+  printf("\n" );
   printf("Dreams: A poem by Langston Hughes\n\n");
   printf("Hold fast to dreams\n");
   printf("For if dreams die\n");
@@ -11,5 +12,6 @@ int main(void)
   printf("For when dreams go\n");
   printf("Life is a barren field\n");
   printf("Frozen with snow.\n");
+  printf("\n" );
   return 0;
 }
