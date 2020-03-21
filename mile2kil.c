@@ -1,5 +1,4 @@
 /*
-  Conoverting miles to kilometers
   Converting miles to kilometers
   Hector Quemada
   March 19. 2020
