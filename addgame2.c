@@ -1,9 +1,10 @@
 #include <stdio.h>
+/* This stil does not work*/
 
 int main(void)
 {
-  char name[10];
-  int num1, num2, sum, choice;
+  char choice, name[10];
+  int num1, num2, sum;
 
   printf("Please enter your first name: \n");
   scanf("%s", name);
@@ -17,9 +18,9 @@ int main(void)
   scanf("%d", &num2);
   sum = num1 + num2;
   printf("The answer is %d\n", sum);
-  printf("Do you want to continue? 0 to quit, any other number to continue: \n");
-  scanf("%d",&choice);
-  } while(choice == 1);
+  printf("Do you want to continue? N to quit, Y to continue: \n");
+  scanf("%c",&choice);
+  }while(choice=='Y');
 
   return 0;
 }
