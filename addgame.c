@@ -11,13 +11,14 @@ int main(void)
 
   do
   {
+  choice = 0;
   printf("Please enter the first number: \n");
   scanf("%d", &num1);
   printf("Please enter the second number: \n");
   scanf("%d", &num2);
   sum = num1 + num2;
   printf("The answer is %d\n", sum);
-  printf("Do you want to continue? 0 to quit, any other number to continue: \n");
+  printf("Do you want to continue? 1 to continue, any other key to quit: \n");
   scanf("%d",&choice);
   } while(choice == 1);
 
