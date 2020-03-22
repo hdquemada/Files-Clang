@@ -25,7 +25,7 @@ int main(void)
     printf("That's correct!\n");
     printf("Hurray! Let's try another one!\n");
     } else {
-    printf("That's not right. The right answer is %d\n", sum);
+    printf("That's not right. The right answer is %d. Try again!\n", sum);
     }
   printf("Do you want to continue? Y/y to continue, any other character to quit: \n");
   getchar();/* This line made the program work. Otherwise it would terminate without looping.*/
