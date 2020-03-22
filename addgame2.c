@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*
+The stdlib.h library is needed to use the rand and srand functions. The time.h library is needed to use the time function.
+*/
 
 int main(void)
 {
@@ -32,6 +35,6 @@ int main(void)
   scanf("%c", &cont);
   }
   while(cont=='Y' || cont=='y');
-
+  printf("See you next time!\n");
   return 0;
 }
