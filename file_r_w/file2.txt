@@ -1,0 +1,14 @@
+This will be another attempt to write to a file.\n But in this case, I am typing in linebreaks to see if it works.\n\n This is another paragraph.\n I will write this to the file now.
+This is additional data I am appending to file1.txt.
+More input to file1.txt.
+This is an additional sentence to input into file a.
+
+This is another sentence to input into file a.
+This is an additional sentence to input into file a.
+
+This is another sentence to input into file a.
+
+This is an additional sentence I am appending to file a.
+
+And then another sentence I am appending.
+
