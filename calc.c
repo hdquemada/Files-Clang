@@ -12,7 +12,7 @@ char choice;
   printf("The numbers are %lf and %lf\n", num1, num2);
 
   printf("What would you like to do with these numbers?\n");
-  printf("add = a, sub = s, multiply = m, divide = d\n");
+  printf("add = a, subtract = s, multiply = m, divide = d\n");
   getchar();
   scanf("%c", &choice);
     if(choice == 'a') {
